@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Find free legal help and information about your legal rights regarding sexual offenses in Kenya.">
+    <meta name="keywords" content="Free legal aid, Kenya legal help, sexual offense laws, legal documents, self-help forms, legal rights, pro bono services">
+    <title>LegalHelp Kenya | Find Free Legal Help and Information About Your Rights</title>
+    <link rel="stylesheet" href="./Legal Help_files/app.0d29a78121d1d68eedee.css">
+    <style>
+        #map {
+            width: 100%;
+            height: 500px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header" class="header" role="banner">
+            <div id="header-top" class="header-top d-print-none">
+                <div class="container">
+                    <div class="d-flex flex-row justify-content-end align-items-center">
+                        <div id="text-sizer" class="text-sizer d-none d-lg-inline-block">
+                            <span class="me-1">Text size:</span>
+                            <a href="#" class="size-1">B</a>
+                            <a href="#" class="size-2">B</a>
+                            <a href="#" class="size-3">B</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-main" class="header-main">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-8">
+                            <div class="site-logo">
+                                <a href="/" title="WakiliHub Kenya">
+                                    <img src="https://victormatara.com/wp-content/uploads/2018/03/List-Of-Top-10-Kenyan-Diaspora-Websites-That-You-Should-Visit.jpg" class="img-fluid" alt="LegalHelp Kenya">
+                                </a>
+                                <h2 class="site-title mt-2">WakiliHub</h2>
+                            </div>
+                            <h3 class="d-block d-md-none tag-line">Simplifying legal matters for you</h3>
+                        </div>
+                        <div class="col-4 text-end align-self-end">
+                            <h3 class="d-none d-md-block tag-line">Simplifying legal matters for you</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-nav" class="header-nav d-print-none">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container">
+                        <div class="site-logo">
+                            <a href="/" title="WakiliHub Kenya">
+                                <img src="https://victormatara.com/wp-content/uploads/2018/03/List-Of-Top-10-Kenyan-Diaspora-Websites-That-You-Should-Visit.jpg" class="img-fluid" alt="LegalHelp Kenya">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler collapsed ms-auto me-2 toggler-main" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="lh-icon-menu-light"></span>
+                            <span class="lh-icon-cross-light"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#find-help">Find Help by County</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#legal-guides">Legal Guides</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about-us">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#partners">Our Partners</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#resources">Resources</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main id="main" role="main">
+            <p>Select your county on the map to find legal aid services available in your area.</p>
+                <div id="map"></div>
+            
+                <!-- Include the SimpleMaps library -->
+                <script src="C:\Users\eugen\Downloads\var simplemaps_countrymap_mapdata={.js"></script>
+            
+                <!-- Include the map configuration directly in the HTML -->
+                <script>
+                    var simplemaps_countrymap_mapdata = {
+                        main_settings: {
+                            width: "responsive",
+                            background_color: "#FFFFFF",
+                            background_transparent: "yes",
+                            border_color: "#ffffff",
+                            state_description: "State description",
+                            state_color: "#88A4BC",
+                            state_hover_color: "#3B729F",
+                            state_url: "",
+                            border_size: 1.5,
+                            all_states_inactive: "no",
+                            all_states_zoomable: "yes",
+                            location_description: "Location description",
+                            location_url: "",
+                            location_color: "#FF0067",
+                            location_opacity: 0.8,
+                            location_hover_opacity: 1,
+                            location_size: 25,
+                            location_type: "square",
+                            location_image_source: "frog.png",
+                            location_border_color: "#FFFFFF",
+                            location_border: 2,
+                            location_hover_border: 2.5,
+                            all_locations_inactive: "no",
+                            all_locations_hidden: "no",
+                            label_color: "#ffffff",
+                            label_hover_color: "#ffffff",
+                            label_size: 16,
+                            label_font: "Arial",
+                            label_display: "auto",
+                            label_scale: "yes",
+                            hide_labels: "no",
+                            hide_eastern_labels: "no",
+                            zoom: "yes",
+                            manual_zoom: "yes",
+                            back_image: "no",
+                            initial_back: "no",
+                            initial_zoom: "-1",
+                            initial_zoom_solo: "no",
+                            region_opacity: 1,
+                            region_hover_opacity: 0.6,
+                            zoom_out_incrementally: "yes",
+                            zoom_percentage: 0.99,
+                            zoom_time: 0.5,
+                            popup_color: "white",
+                            popup_opacity: 0.9,
+                            popup_shadow: 1,
+                            popup_corners: 5,
+                            popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
+                            popup_nocss: "no",
+                            div: "map",
+                            auto_load: "yes",
+                            url_new_tab: "no",
+                            images_directory: "default",
+                            fade_time: 0.1,
+                            link_text: "View Website",
+                            popups: "detect"
+                        },
+                        state_specific: {
+                            KE01: { name: "Mombasa", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE02: { name: "Kwale", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE03: { name: "Kilifi", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE04: { name: "Tana River", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE05: { name: "Lamu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE06: { name: "Taita Taveta", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE07: { name: "Garissa", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE08: { name: "Wajir", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE09: { name: "Mandera", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE10: { name: "Marsabit", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE11: { name: "Isiolo", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE12: { name: "Meru", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE13: { name: "Tharaka-Nithi", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE14: { name: "Embu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE15: { name: "Kitui", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE16: { name: "Machakos", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE17: { name: "Makueni", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE18: { name: "Nyandarua", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE19: { name: "Nyeri", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE20: { name: "Kirinyaga", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE21: { name: "Murang'a", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE22: { name: "Kiambu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE23: { name: "Turkana", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE24: { name: "West Pokot", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE25: { name: "Samburu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE26: { name: "Trans Nzoia", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE27: { name: "Uasin Gishu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE28: { name: "Elgeyo-Marakwet", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE29: { name: "Nandi", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE30: { name: "Baringo", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE31: { name: "Laikipia", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE32: { name: "Nakuru", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE33: { name: "Narok", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE34: { name: "Kajiado", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE35: { name: "Kericho", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE36: { name: "Bomet", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE37: { name: "Kakamega", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE38: { name: "Vihiga", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE39: { name: "Bungoma", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE40: { name: "Busia", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE41: { name: "Siaya", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE42: { name: "Kisumu", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE43: { name: "Homa Bay", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE44: { name: "Migori", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE45: { name: "Kisii", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE46: { name: "Nyamira", description: "default", color: "default", hover_color: "default", url: "default" },
+                            KE47: { name: "Nairobi City", description: "default", color: "default", hover_color: "default", url: "default" }
+                        },
+                        locations: {
+                            "0": {
+                                lat: -1.286389,
+                                lng: 36.817223,
+                                name: "Nairobi"
+                            }
+                        },
+                        labels: {},
+                        legend: {
+                            entries: []
+                        },
+                        regions: {}
+                    };
+            
+                    // Initialize the map with the configuration data
+                    simplemaps_countrymap.load();
+                </script>
+                    </map>
+                </div>
+            </div>
+        </main>                
+            <section id="main-content" class="main-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="wysiwyg-widget">
+                                <div class="topic-list" id="topic-list">
+                                    <h2 class="mb-4">Legal Help Guides</h2>
+                                    <div class="g-4 row">
+                                        <div class="col-12 col-lg-4 col-md-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="align-items-center align-items-md-start d-flex">
+                                                        <div class="topic-icon"><span class="lh-icon-nonprofit-law"></span></div>
+                                                        <h3 class="card-title"><a class="stretched-link" href="#legal-aid">Legal Aid and other Low-Cost Legal Help</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-4 col-md-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="align-items-center align-items-md-start d-flex">
+                                                        <div class="topic-icon"><span class="lh-icon-public-benefits"></span></div>
+                                                        <h3 class="card-title"><a class="stretched-link" href="#court-fees">Court Fees and Getting Court Fees Paid</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-4 col-md-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="align-items-center align-items-md-start d-flex">
+                                                        <div class="topic-icon"><span class="lh-icon-health"></span></div>
+                                                        <h3 class="card-title"><a class="stretched-link" href="#reproductive-rights">Reproductive Health Care Rights and Access</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Add more cards as needed -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 d-flex justify-content-end mt-4">
+                                            <h4><a href="#all-resources">All Resources</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="main-footer" class="main-footer d-print-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mb-3 mb-md-0 col-md-4">
+                            <div class="content-block">
+                                <div class="wysiwyg-widget">
+                                    <h4 align="center"><img alt="" src="./Legal Help_files/KenyaLawHelp.png" style="height:60px; width:185px"></h4>
+                                    <h5><a href="#">Create Legal Documents</a> for free.</h5>
+                                    <p>Create complete legal documents to protect your rights in Land, family law, succession, and many other types of problems, for free.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 mb-md-0 col-md-4">
+                            <div class="content-block">
+                                <div class="wysiwyg-widget">
+                                    <h4 align="center"><img alt="" src="./Legal Help_files/KenyaImmigrationHelp.png"></h4>
+                                    <h5>Gender Based Violence Legal Help in Kenya</h5>
+                                    <p>Go to our <a href="#Gender Based Violence-help">Gender Based Violence Legal Help</a> page to learn how to protect yourself from domestic violence, sexual assault and FGM.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3 mb-md-0 col-md-4">
+                            <div class="content-block">
+                                <div class="wysiwyg-widget">
+                                    <h4>Coming to your aid in the face of Human Rights Violations</h4>
+                                    <h5>Were your rights as outlined in the constitution infringed?</h5>
+                                    <p>Go to our <a href="#human rights-help">Human Rights Legal Help</a> page to learn more about Human Rights Violations assistance, legal help in your area</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer d-print-none" role="contentinfo">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-4 section">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <div class="site-logo">
+                                    <a href="/" title="LegalHelp Kenya">
+                                        <img src="./Legal Help_files/KenyaLegalHelp.svg" class="img-fluid" alt="LegalHelp Kenya">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p class="d-block d-md-none lawhelp-link">
+                                    <a href="/" target="_blank" title="Find legal help in other counties" aria-label="LegalHelp Kenya - Opens in new window">Find legal help in other counties</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 order-1 order-md-0 copyright">
+                        <p class="d-none d-md-block lawhelp-link">
+                            <a href="/" target="_blank" title="Find legal help in other counties" aria-label="LegalHelp Kenya - Opens in new window">Find legal help in other counties</a>
+                        </p>
+                        <p class="powered-by">
+                            <a href="#" target="_blank" title="Pro Bono Net" aria-label="Pro Bono net - Opens in new window">
+                                powered by <span>probono.net</span>
+                            </a>
+                        </p>
+                        <p class="mission">Wakili Hub Net’s online tools, legal information and referral directories are always free to use. LegalHelp Kenya and county-specific sites are maintained by Wakili Hub Net in partnership with Kenya National Commission on Human Rights, Law Society of Kenya, Legal Resources Foundation, Kituo Cha Sheria, Federation of Women Lawyers, International Justice Mission (IJM) Kenya, The National Legal Aid and Awareness Programme (NALEAP) and Amnesty International Kenya.</p>
+                        <p class="copyright-text">© 2024, Wakili Hub Net, All Rights Reserved.</p>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="row">
+                            <div class="col-12 col-md-6 section">
+                                <div class="row h-100">
+                                    <div class="col-6">
+                                        <div class="h-100 quick-links">
+                                            <h4>Quick Links</h4>
+                                            <ul class="list-unstyled">
+                                                <li><a class="text-break" href="#find-help">Find Help by County</a></li>
+                                                <li><a class="text-break" href="#legal-guides">Legal Help Guides</a></li>
+                                                <li><a class="text-break" href="#about-us">About Us</a></li>
+                                                <li><a class="text-break" href="#partners">Our Partners</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="h-100 site-tools">
+                                            <h4>Site Tools</h4>
+                                            <ul class="list-unstyled">
+                                                <li><a class="text-break" href="#contact-us">Contact Us</a></li>
+                                                <li><a class="text-break" href="#accessibility">Accessibility</a></li>
+                                                <li><a class="text-break" href="#privacy">Privacy</a></li>
+                                                <li><a class="text-break" href="#disclaimer">Disclaimer</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="#wrapper" class="visually-hidden-focusable" title="Back to top">Back to top</a>
+        <button type="button" id="back-to-top" class="btn back-to-top d-print-none d-none" title="Back to top">
+            <span class="lh-icon-arrow-up"></span>
+        </button>
+    </div>
+    <script src="./Legal Help_files/runtime.746ef5dfb2038e577b34.js"></script>
+    <script src="./Legal Help_files/vendors.823e2d98c848646caf58.js"></script>
+    <script src="./Legal Help_files/app.2e6470ad8bac2a798f65.js"></script>
+</body>
+</html>
