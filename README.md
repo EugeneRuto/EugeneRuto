@@ -1,14 +1,28 @@
-## Hi there 👋
+# 👋 Hello, I'm Eugene Ruto
 
-<!--
-**EugeneRuto/EugeneRuto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **Law Student | Tech Enthusiast | Legal-Tech Developer**  
+I'm passionate about leveraging technology to improve legal accessibility and justice delivery in Kenya. My primary focus is on **web development using Python, Django, HTML, CSS, and JavaScript** to create impactful legal-tech solutions.  
 
-Here are some ideas to get you started:
+## 🔹 **Tech Stack**
+- **Languages**: Python, JavaScript, HTML, CSS  
+- **Frameworks & Tools**: Django, Bootstrap  
+- **Database**: PostgreSQL, SQLite  
+- **Version Control**: Git & GitHub  
 
-- 🔭 I’m currently working on a project to assist lay people understand the law by developing a web site that aids them in navigating the legal field.
-- 🌱 I’m currently learning on how to develop a backend as i have already set up an interactive front end.
-- 👯 I’m looking to collaborate on this project with legal enthusiasts who believe technology can open access to justice.
-- 🤔 I’m looking for help with coming up with a good backend. Also i need help with adding an interactive map on the front end.
-- 💬 Ask me about anything touching frontend development.
-- 📫 How to reach me: eugeneruto84@gmail.com
+## 💼 **Projects**
+### **[Wakili Hub](https://github.com/EugeneRuto/wakili_hub)**
+A platform leveraging technology to enhance **accessibility of justice in Kenya**. Wakili Hub aims to bridge the legal gap by providing tools, legal documents, and AI-powered solutions for individuals and legal professionals.
+
+📌 **Features:**
+- AI-powered legal document generation  
+- Centralized legal knowledge hub  
+- Open access to Kenyan legal frameworks  
+
+## 🌟 **How to Connect with Me**
+📧 Email: [eugeneruto84@gmail.com](mailto:eugeneruto84@gmail.com)  
+🔗 LinkedIn: [Eugene Ruto](https://www.linkedin.com/in/eugene-ruto-4b848a268)  
+📌 GitHub: [@EugeneRuto](https://github.com/EugeneRuto)  
+
+---
+💡 *I'm always open to collaborations on legal-tech solutions. Feel free to connect!*
 
